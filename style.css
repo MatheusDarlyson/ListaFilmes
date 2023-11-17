@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-white: #fff;
+    --color-pink: #d12f7a;
+    --color-black: #000000;
+    --color-blue: #073fcc;
+    --color-purple: #5f01ac;
+    --color-fuchsia: #FF00FF;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .page-title {
+    color: var(--color-white);
+    margin: 0 0 1px;
+    font-size: 50px;
+  }
+  
+  .cineLight-logo {
+    width: 85px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.09;
+    border-radius: 75px;
+  }
+
+
+     body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+
+  
+
+
